@@ -13,10 +13,10 @@ public class Hero extends Actor
         }
         
         if(atTop) {
-            setLocation(100,150);
+            setLocation(100,100);
             
         } else {
-            setLocation(400,100);
+            setLocation(300,100);
         }
     }
 }
