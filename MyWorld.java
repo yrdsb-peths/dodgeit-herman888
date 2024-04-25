@@ -20,5 +20,8 @@ public class MyWorld extends World
         
         getBackground().setColor(Color.BLACK);
         getBackground().fill();
+        
+        Snake snake = new Snake();
+        addObject(snake, 200, 200);
     }
 }
