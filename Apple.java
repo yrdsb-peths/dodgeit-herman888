@@ -6,6 +6,7 @@ public class Apple extends Actor
    
     public void act()
     {
-        move(2);// Add your action code here.
+        move(2);
+        
     }
 }

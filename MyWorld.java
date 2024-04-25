@@ -17,5 +17,8 @@ public class MyWorld extends World
         
         Apple apple = new Apple();
         addObject(apple, 100, 200);
+        
+        getBackground().setColor(Color.BLACK);
+        getBackground().fill();
     }
 }
