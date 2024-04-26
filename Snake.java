@@ -16,6 +16,9 @@ public class Snake extends Actor
         if(Greenfoot.isKeyDown("down"))
             setRotation(90);
             
-        
+        if(isTouching(Apple.class)){
+            SadFace sadFace = new SadFace();
+            getWorld().addObject(sadFace, 500, 200);
+            getWorld().removeObject(this);        }
     }
 }
