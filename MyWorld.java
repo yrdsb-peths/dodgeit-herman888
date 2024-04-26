@@ -3,6 +3,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class MyWorld extends World
 {
+    
+    Counter snakeCounter = new Counter();
+    
 
     public MyWorld()
     {    
@@ -10,7 +13,7 @@ public class MyWorld extends World
         super(600, 400, 1); 
         
         Hero hero = new Hero();
-        addObject(hero, 100, 100);
+        addObject(hero, 600, 100);
         
         Banana banana = new Banana();
         addObject(banana, 600, 100);
@@ -23,5 +26,7 @@ public class MyWorld extends World
         
         Snake snake = new Snake();
         addObject(snake, 200, 200);
+        
+        addObject(snakeCounter, 450,50);
     }
 }
