@@ -9,4 +9,4 @@ PURPOSE OF PROJECT: Practice coding
 VERSION or DATE: Wednesday April 24
 HOW TO START THIS PROJECT:
 AUTHORS: Herman Isayenka
-USER INSTRUCTIONS:
+USER INSTRUCTIONS: To Play this game use your arrow keys to move the snake in diffirent directions. When the snake hits the apple its game over.
